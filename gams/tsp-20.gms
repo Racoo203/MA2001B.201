@@ -60,7 +60,7 @@ r6.. sum((i,j),dist(i,j)*x(i,j)) =G= 0;
 * la suma de las horas trabajadas de todos los empleados tiene que ser menor que
 * 8 veces el numero de empleados
 
-subtours(i,j)$(ord(i)<> 5 and ord(j) <> 55 and ord(i) <> ord(j)).. u(i)-u(j)+card(i)*x(i,j)=L=card(i)-1;
+subtours(i,j)$(ord(i)<> 5 and ord(j) <> 5 and ord(i) <> ord(j)).. u(i)-u(j)+card(i)*x(i,j)=L=card(i)-1;
 * eliminacion de subrutas
 
 
